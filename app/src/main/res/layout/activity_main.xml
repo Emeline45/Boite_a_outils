@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MainActivity">
+    <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" tools:layout_editor_absoluteY="1dp"
+            tools:layout_editor_absoluteX="1dp">
+        <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                tools:ignore="MissingConstraints">
+            <TextView
+                    android:text="@string/accueil_de_la_boite_outils"
+                    android:layout_width="365dp"
+                    android:layout_height="wrap_content" android:id="@+id/textView" android:textSize="36sp"
+                    android:textAlignment="center"/>
+            <Button
+                    android:text="@string/heure_actuelle"
+                    android:layout_width="365dp"
+                    android:layout_height="105dp" android:id="@+id/heure_modif"
+                    android:drawableStart="@android:drawable/ic_menu_recent_history" android:textSize="24sp"
+                    android:backgroundTint="#E47171"/>
+            <Button
+                    android:text="@string/photo"
+                    android:drawableStart="@android:drawable/ic_menu_camera"
+                    android:layout_width="365dp"
+                    android:layout_height="105dp" android:id="@+id/photo" android:textAlignment="center"
+                    android:textSize="24sp" android:backgroundTint="#EA8FF4"/>
+            <Button
+                    android:text="@string/m_t_o"
+                    android:layout_width="365dp"
+                    android:layout_height="105dp" android:id="@+id/Meteo_button"
+                    android:drawableStart="@android:drawable/ic_menu_mapmode" android:textSize="24sp"
+                    android:backgroundTint="#7CDDDD"/>
+            <Button
+                    android:text="@string/chronom_tre"
+                    android:layout_width="365dp"
+                    android:layout_height="105dp" android:id="@+id/chronometre"
+                    android:drawableStart="@android:drawable/ic_lock_idle_alarm" android:textSize="24sp"
+                    android:backgroundTint="#B4F491"/>
+            <Button
+                    android:text="@string/minuteur"
+                    android:layout_width="365dp"
+                    android:layout_height="105dp" android:id="@+id/minuteur"
+                    android:drawableStart="@android:drawable/ic_menu_recent_history" android:textSize="24sp"
+                    android:backgroundTint="#D9E471"/>
+            <Button
+                    android:text="@string/contacts"
+                    android:layout_width="365dp"
+                    android:layout_height="105dp" android:id="@+id/contact"
+                    android:drawableStart="@android:drawable/ic_menu_my_calendar" android:textSize="24sp"
+                    android:backgroundTint="#EFB36B"/>
+
+
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

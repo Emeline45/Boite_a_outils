@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Boite à outils</string>
+    <string name="accueil_de_la_boite_outils">Accueil de la boite à outils</string>
+    <string name="photo">Photo</string>
+    <string name="lampe">Lampe</string>
+    <string name="m_t_o">Météo</string>
+    <string name="maps">Maps</string>
+    <string name="chronom_tre">Chronomètre</string>
+    <string name="heure_actuelle">Heure actuelle</string>
+    <string name="bloc_note">Bloc note</string>
+    <string name="quitter">Quitter</string>
+    <string name="_00_00">00.00</string>
+    <string name="_0_0_0_000">0:0:0.000</string>
+    <string name="playStop"/>
+    <string name="minuteur">Minuteur</string>
+    <string name="play">Play</string>
+    <string name="contacts">contacts</string>
+    <string name="nom">Nom</string>
+    <string name="numero">Numero</string>
+    <string name="prendre_la_photo">Prendre la photo</string>
+    <string name="todo">TODO</string>
+    <string name="meteo">Meteo</string>
+    <string name="ville">Ville</string>
+    <string name="temp_rature">Température</string>
+</resources>
